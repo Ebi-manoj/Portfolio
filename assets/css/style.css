@@ -2144,9 +2144,9 @@ textarea:focus {
   cursor: pointer;
   background-color: #3498db;
   color: white;
-  font-size: 24px;
-  padding-top: 22px;
-  padding-bottom: 22px;
+  font-size: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   transition: all 0.3s;
@@ -2177,6 +2177,10 @@ textarea:focus {
 .submit:hover .ease {
   width: 100%;
   background-color: white;
+}
+#error-message {
+  text-align: center;
+  color: red;
 }
 
 @media only screen and (max-width: 580px) {
