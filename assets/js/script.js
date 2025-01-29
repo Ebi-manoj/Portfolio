@@ -133,6 +133,8 @@ var emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
 
 formElement.addEventListener('submit', function (e) {
   e.preventDefault();
+  console.log(e);
+
   let messages = [];
   if (!namePattern.test(nameElement.value)) {
     messages.push('Enter a valid name');
