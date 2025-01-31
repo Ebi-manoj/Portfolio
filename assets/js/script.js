@@ -147,6 +147,7 @@ formElement.addEventListener('submit', function (e) {
   }
 
   if (messages.length > 0) {
+    errorElement.style.color = 'red';
     errorElement.innerText = messages.join('\n');
   } else {
     emailjs.send('service_tunmonx', 'template_9f9nue7', {
