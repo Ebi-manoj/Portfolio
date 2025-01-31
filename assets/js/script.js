@@ -155,5 +155,6 @@ formElement.addEventListener('submit', function (e) {
     });
     errorElement.style.color = 'green';
     errorElement.innerText = 'Email has been sent';
+    e.target.reset();
   }
 });
